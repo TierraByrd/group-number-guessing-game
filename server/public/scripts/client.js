@@ -47,8 +47,8 @@ function renderResults(){
       renderDiv.innerHTML = ''
       for (let guess of guessData){
       renderDiv.innerHTML += `
-      <div> Player 1 Guess: ${guess.firstPlayerGuess} Results: ${guess.playerOneResults} </div>
-      <div> Player 2 Guess: ${guess.secondPlayerGuess} Results: ${guess.playerTwoResults} </div>`
+      <div class='player1'> Player 1 Guess: ${guess.firstPlayerGuess} Results: ${guess.playerOneResults} </div>
+      <div class='player2'> Player 2 Guess: ${guess.secondPlayerGuess} Results: ${guess.playerTwoResults} </div>`
       }
 
     })

@@ -1,0 +1,27 @@
+h1{
+    color: rgb(168, 97, 59);
+    text-align: center;
+    font-style: bold;
+   font-size: 100px;
+}
+.player1{
+    color: rgb(87, 61, 34);
+    font-size: 25px;
+}
+.player2{
+    color: rgb(189, 111, 29);
+    font-size: 25px;
+}
+body{
+    background-color: rgb(98, 98, 104);
+}
+button{
+    padding: auto;
+    margin: auto;
+    color: rgba(106, 60, 97, 0.597)
+
+    
+}
+form{
+    display: inline-block;
+}
